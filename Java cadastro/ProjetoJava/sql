@@ -1,0 +1,12 @@
+create database teste1;
+
+use teste1
+
+create table produto(
+	idProduto int primary key auto_increment,
+	nome varchar(40) not NULL,
+	estoque int,
+	preco float(10,2)
+
+);
+
